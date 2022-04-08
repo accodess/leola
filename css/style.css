@@ -459,9 +459,10 @@ option:active{
 @media screen and (max-width: 576px){
     .header-img{
         background-image: url('../img/banner/photo-mob1.jpg');
-        background-position: center center;
-        background-attachment: fixed;
-        background-size: cover;     
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-attachment: local;
+        background-size: 100%;     
     } 
     li.nav-item{
         margin-left: 20px;
