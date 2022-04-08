@@ -456,7 +456,16 @@ option:active{
        }
     
 }
-@media creen and (max-width: 576px){
+@media screen and (max-width: 576px){
+    .header-img{
+        background-image: url('../img/banner/photo-mob1.jpg');
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;     
+    } 
+    li.nav-item{
+        margin-left: 20px;
+    }
     .footer-two{
         justify-content: center;
     }
