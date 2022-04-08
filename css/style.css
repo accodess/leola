@@ -470,8 +470,11 @@ option:active{
     h2, h3{
         text-align: center;
     }
-    .footer-one.form-control{       
+    .footer-one .form-control{       
         margin-bottom: 10px;
+    }
+    .btn1-mob{
+        float: left;
     }
     .footer-two{
         justify-content: center;
