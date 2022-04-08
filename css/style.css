@@ -467,6 +467,12 @@ option:active{
     li.nav-item{
         margin-left: 20px;
     }
+    h2, h3{
+        text-align: center;
+    }
+    .footer-one.form-control{       
+        margin-bottom: 10px;
+    }
     .footer-two{
         justify-content: center;
     }
